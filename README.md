@@ -1,8 +1,8 @@
 Bower to yarn
 =============
 
-A simple tool for moving bower dependencies to yarn or npm. 
-Made for my own special use-case.
+A simple tool for moving bower dependencies to yarn or npm.  
+Made for my own special use-case. Maybe it will help you to? :tada:
 
 ---
 
