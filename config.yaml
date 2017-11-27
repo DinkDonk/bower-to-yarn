@@ -1,0 +1,5 @@
+# Some package names differ from bower to npm.
+# packageResolves is a key value pair list where the key represents
+# the bower package name, and the value represents the corresponding npm package name
+packageResolves:
+  angularjs: angular

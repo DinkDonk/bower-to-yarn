@@ -1,0 +1,16 @@
+{
+  "name": "bower-to-yarn",
+  "version": "1.0.0",
+  "description": "Convert bower projects to yarn",
+  "main": "index.js",
+  "bin": {
+    "bower-to-yarn": "./index.js"
+  },
+  "author": "Rune Warhuus <rune@dinkdonk.no>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "js-yaml": "^3.10.0",
+    "yargs": "^10.0.3"
+  }
+}
