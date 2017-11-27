@@ -159,11 +159,15 @@ readFile(argv.bowerFile, 'utf8')
 	return unlink(argv.bowerFile);
 })
 .then(() => {
-	console.log('---');
+	console.log('');
 
 	for (const key in unpublishedPackages) {
 		displayWarning(`The ${chalk.cyan(key)} dependency is loaded from git. It should perhaps be published to a registry?`);
 	}
+
+	const words = ['Marvelous!', 'Splendid!', 'All done!', 'Superb!', 'Brilliant!', 'Magnificent!', 'Superlative!'];
+
+	console.log('👌  %s', chalk.bold.green(words[Math.floor(Math.random() * words.length)]));
 })
 .catch((error) => {
 	displayError(error.message);
