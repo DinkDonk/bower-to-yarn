@@ -3,3 +3,4 @@
 # the bower package name, and the value represents the corresponding npm package name
 packageResolves:
   angularjs: angular
+  bootstrap-sass-official: bootstrap-sass
