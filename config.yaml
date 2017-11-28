@@ -4,3 +4,4 @@
 packageResolves:
   angularjs: angular
   bootstrap-sass-official: bootstrap-sass
+  angular-ui-select: ui-select
