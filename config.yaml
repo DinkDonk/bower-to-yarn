@@ -5,3 +5,6 @@ packageResolves:
   angularjs: angular
   bootstrap-sass-official: bootstrap-sass
   angular-ui-select: ui-select
+  ngInflection: nginflection
+  angular-truncate: angular-truncate-2
+  tg-angular-validator: angular-validator
