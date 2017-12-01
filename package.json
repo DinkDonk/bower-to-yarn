@@ -1,6 +1,6 @@
 {
   "name": "bower-to-yarn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert bower projects to yarn",
   "main": "index.js",
   "bin": {
