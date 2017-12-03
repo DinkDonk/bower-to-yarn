@@ -2,6 +2,16 @@
   "name": "bower-to-yarn",
   "version": "1.0.3",
   "description": "Convert bower projects to yarn",
+  "keywords": [
+    "bower",
+    "yarn",
+    "convert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DinkDonk/bower-to-yarn.git"
+  },
+  "bugs": "https://github.com/DinkDonk/bower-to-yarn/issues",
   "main": "index.js",
   "bin": {
     "bower-to-yarn": "./index.js"
